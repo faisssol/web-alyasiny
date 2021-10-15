@@ -1,0 +1,54 @@
+/* .btn {
+  position: absolute;
+  border-radius: 4px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 60px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+.btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0px;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translateX(-100px) scaleX(-15deg);
+}
+
+.btn:hover {
+  background: #e5e500;
+  cursor: pointer;
+}
+
+.btn:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+
+.btn:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: 0.7s;
+} */
