@@ -30,7 +30,10 @@ class Pages extends BaseController
 
     public function fasilitas()
     {
-        return view('pages/fasilitas');
+        $data = [
+            'title' => 'Fasilitas'
+        ];
+        return view('pages/fasilitas', $data);
     }
 
     public function pendaftaran()
