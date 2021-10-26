@@ -38,7 +38,10 @@ class Pages extends BaseController
 
     public function pendaftaran()
     {
-        return view('pages/pendaftaran');
+        $data = [
+            'title' => 'Pendaftaran'
+        ];
+        return view('pages/pendaftaran', $data);
     }
 
     public function pengumuman()
