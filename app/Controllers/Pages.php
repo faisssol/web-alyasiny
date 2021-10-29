@@ -44,13 +44,16 @@ class Pages extends BaseController
         return view('pages/pendaftaran', $data);
     }
 
-    public function pengumuman()
+    public function berita()
     {
-        return view('pages/pengumuman');
+        return view('pages/berita');
     }
 
     public function kontak()
     {
-        return view('pages/kontak');
+        $data = [
+            'title' => 'Kontak'
+        ];
+        return view('pages/kontak', $data);
     }
 }

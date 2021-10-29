@@ -232,9 +232,9 @@
                         <h6 class="text-uppercase fw-bold mb-4">
                             Kontak
                         </h6>
-                        <p><i class="bi bi-house-door-fill text-warning"></i></i> Jl. Tawang Mangu No. 53, Kel. Tegalgede, Kec. Sumbersari, Kab. Jember, Jawa Timur</p>
+                        <p><i class="bi bi-house-door-fill text-warning"></i> Jl. Tawang Mangu No. 53, Kel. Tegalgede, Kec. Sumbersari, Kab. Jember, Jawa Timur</p>
                         <p><i class="bi bi-envelope-fill text-warning"></i> alyasiny@gmail.com</p>
-                        <p><i class="bi bi-telephone-fill text-warning"></i> +62 123456789</p>
+                        <p><i class="bi bi-whatsapp text-warning"></i> +62 123456789</p>
                     </div>
                     <!-- Grid column -->
                 </div>

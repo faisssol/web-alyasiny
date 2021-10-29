@@ -88,7 +88,7 @@
 
                 <div class="mb-4">
                     <h3 class="fw-bolder">Waktu Pendaftaran</h3>
-                    <p>Waktu pendaftaran calon santri Pondok Pesantren Putera Al-Yasiny <b>dibuka setiap waktu.</b> Calon santri boleh daftar saat sedang menempuh kelas atau semester berapapun.</p>
+                    <p class="text-black-50">Waktu pendaftaran calon santri Pondok Pesantren Putera Al-Yasiny <b>dibuka setiap waktu.</b> Calon santri boleh daftar saat sedang menempuh kelas atau semester berapapun.</p>
                 </div>
 
             </div>
