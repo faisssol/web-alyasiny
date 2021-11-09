@@ -26,66 +26,67 @@
         <!--akhir banner-->
 
         <!--Kegiatan-->
-        <section class="py-5 bg-light">
+        <section class="pt-3 pb-4 bg-light">
             <div class="container px-5 mt-5">
-                <!--coba carousel-->
-
-                <!---->
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
                         <div class="text-center">
                             <h2 class="fw-bolder text-success">Kegiatan Santri</h2>
-                            <p class="lead fw-normal text-muted mb-5">Berikut merupakan kegiatan yang wajib diikuti oleh santri Pondok Pesantren Putera Al-Yasiny.</p>
+                            <p class="fw-normal text-muted mb-3">Berikut merupakan kegiatan yang wajib diikuti oleh santri Pondok Pesantren Putera Al-Yasiny.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="img/keg1.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Program Tahfidz</h5>
-                                </a>
-                                <p class="card-text mb-0">Aktivitas menghafal Al-Quran, mengamalkan, dan membudayakan nilai-nilai Al-Qur'an dalam sikap hidup sehari-hari.</p>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="img/keg2.jpg" alt="..." />
-                            <div class="card-body p-4">
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Ngaji Kitab Akhlaq</h5>
-                                </a>
-                                <p class="card-text mb-0">Supaya para santri memahami akhlaq terpuji dan tata cara menuntut ilmu yang benar, agar ilmu yang didapat bermanfaat di masyarakat.</p>
+                            <div class="carousel-inner ratio" style="--bs-aspect-ratio: 50%;">
+                                <div class="carousel-item active">
+                                    <img src="img/keg1.jpg" class="img-fluid rounded w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/keg2.jpg" class="img-fluid rounded w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/keg3.jpeg" class="img-fluid rounded w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/keg4.jpg" class="img-fluid rounded w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/keg5.jpg" class="img-fluid rounded w-100" alt="...">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src="img/keg3.jpeg" alt="..." />
-                            <div class="card-body p-4">
-                                <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Yasin & Tahlil</h5>
-                                </a>
-                                <p class="card-text mb-0">Some more quick example text to build on the card title and make up
-                                    the bulk of the card's content.</p>
-                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-md-center mt-3">
                     <div class="col col-lg-2">
-                        <a class="btn btn-warning p-2 shadow rounded-pill text-white" href="#" role="button">Kegiatan lainnya</a>
+                        <a class="btn btn-warning p-2 shadow text-white d-none d-xl-block" href="pages/kegiatan" role="button">Kegiatan lainnya</a>
+                        <a class="btn btn-warning btn-sm  p-1 shadow text-white d-xl-none" href="pages/kegiatan" role="button">Kegiatan lainnya</a>
                     </div>
                 </div>
+            </div>
         </section>
 
 
 
         <!--Fasilitas-->
-        <section class="py-5">
+        <section class="pt-3 pb-4">
             <div class="container px-5 mt-5">
                 <div class="row gx-5 justify-content-center mb-5">
                     <div class="col-lg-8 col-xl-6">
@@ -142,7 +143,8 @@
                 </div>
                 <div class="row justify-content-md-center mt-3">
                     <div class="col col-lg-2">
-                        <a class="btn btn-warning p-2 shadow rounded-pill text-white" href="#" role="button">Fasilitas lainnya</a>
+                        <a class="btn btn-warning p-2 shadow text-white d-none d-xl-block" href="pages/fasilitas" role="button">Fasilitas lainnya</a>
+                        <a class="btn btn-warning btn-sm  p-1 shadow text-white d-xl-none" href="pages/fasilitas" role="button">Fasilitas lainnya</a>
                     </div>
                 </div>
         </section>
@@ -206,22 +208,22 @@
                             Menu
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset">Profil</a>
+                            <a href="pages/profil" class="text-reset">Profil</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Kegiatan</a>
+                            <a href="pages/kegiatan" class="text-reset">Kegiatan</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Fasilitas</a>
+                            <a href="pages/fasilitas" class="text-reset">Fasilitas</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Pendaftaran</a>
+                            <a href="pages/pendaftaran" class="text-reset">Pendaftaran</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Pengumumn</a>
+                            <a href="pages/berita" class="text-reset">Berita</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Kontak</a>
+                            <a href="pages/kontak" class="text-reset">Kontak</a>
                         </p>
                     </div>
                     <!-- Grid column -->

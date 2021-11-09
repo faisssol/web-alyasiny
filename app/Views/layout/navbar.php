@@ -10,7 +10,7 @@
                             <li class="nav-item"><a class="nav-link" href="/pages/kegiatan">Kegiatan</a></li>
                             <li class="nav-item"><a class="nav-link" href="/pages/fasilitas">Fasilitas</a></li>
                             <li class="nav-item"><a class="nav-link" href="/pages/pendaftaran">Pendaftaran</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/pages/Berita">Berita</a></li>
+                            <li class="nav-item"><a class="nav-link disabled" href="/pages/Berita">Berita</a></li>
                             <li class="nav-item"><a class="nav-link" href="/pages/kontak">Kontak</a></li>
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
