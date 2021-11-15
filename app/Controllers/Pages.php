@@ -46,7 +46,10 @@ class Pages extends BaseController
 
     public function berita()
     {
-        return view('pages/berita');
+        $data = [
+            'title' => 'Berita'
+        ];
+        return view('pages/berita', $data);
     }
 
     public function kontak()

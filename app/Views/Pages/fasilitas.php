@@ -247,17 +247,12 @@
                             <div class="card-body p-4 py-lg-5">
                                 <div class="d-flex align-items-center justify-content-center">
                                     <div class="text-center">
-                                        <div class="h6 fw-bolder">Have more questions?</div>
-                                        <p class="text-muted mb-4">
-                                            Contact us at
-                                            <br />
-                                            <a href="#!">support@domain.com</a>
-                                        </p>
-                                        <div class="h6 fw-bolder">Follow us</div>
-                                        <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
-                                        <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-facebook"></i></a>
-                                        <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-linkedin"></i></a>
-                                        <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-youtube"></i></a>
+                                        <div class="h4 mb-4 fst-italic text-muted">“Hendaknya segera mempergunakan masa muda dan umurnya untuk memperoleh ilmu, tanpa terpedaya oleh rayuan “menunda-nunda” dan “berangan-angan panjang”, sebab setiap detik yang terlewatkan dari umur tidak akan tergantikan.”</div>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <div class="fw-bold">
+                                                KH Muhammad Hasyim Asy'ari
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
