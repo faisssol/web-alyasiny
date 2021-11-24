@@ -31,7 +31,7 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
                         <div class="text-center">
-                            <h2 class="fw-bolder text-success">Kegiatan Santri</h2>
+                            <h2 class="fw-bolder text-black">Kegiatan Santri</h2>
                             <p class="fw-normal text-muted mb-3">Berikut merupakan kegiatan yang wajib diikuti oleh santri Pondok Pesantren Putera Al-Yasiny.</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-md-center mt-3">
+                <div class="row justify-content-center mt-3">
                     <div class="col col-lg-2">
                         <a class="btn btn-warning p-2 shadow text-white d-none d-xl-block" href="pages/kegiatan" role="button">Kegiatan lainnya</a>
                         <a class="btn btn-warning btn-sm  p-1 shadow text-white d-xl-none" href="pages/kegiatan" role="button">Kegiatan lainnya</a>
@@ -91,7 +91,7 @@
                 <div class="row gx-5 justify-content-center mb-5">
                     <div class="col-lg-8 col-xl-6">
                         <div class="text-center">
-                            <h2 class="fw-bolder text-success">Fasilitas Santri</h2>
+                            <h2 class="fw-bolder text-black">Fasilitas Santri</h2>
                             <!-- <p class="lead fw-normal text-muted mb-5">Berikut merupakan kegiatan yang wajib diikuti oleh santri Pondok Pesantren Putera Al-Yasiny.</p> -->
                         </div>
                     </div>
